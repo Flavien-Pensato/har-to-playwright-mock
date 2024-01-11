@@ -1,10 +1,19 @@
 {
   "name": "har-to-playwright-mock",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Script cli with the ability to generate mockApi route for Playwright from har file (http archive)",
+  "keywords": [
+    "frontend",
+    "node",
+    "har",
+    "playwright",
+    "mockApi",
+    "testing",
+    "e2e"
+  ],
   "bin": {
     "har-to-playwright-mock": "./index.js"
   },
-  "author": "",
+  "author": "Flavien Pensato <flavien.pensato@gmail.com>",
   "license": "ISC"
 }

@@ -1,6 +1,6 @@
 # har-to-playwright-mock
 
-A brief summary of what your Node.js CLI script does and its purpose.
+This script cli have the ability to generate mockApi route for Playwright from har file (http archive).
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install -g har-to-playwright-mock
 
 ## Usage
 
-A detailed explanation of how to use your CLI script. Include examples and screenshots if possible.
+For now the usage is basic and limited to cli.
 
 ```bash
 har-to-playwright-mock <path_har_file>
@@ -22,6 +22,7 @@ har-to-playwright-mock <path_har_file>
 
 ### Examples
 
+https://github.com/Flavien-Pensato/har-to-playwright-mock/assets/7447983/40f4249f-a02a-415b-a8f1-62d8ed02742e
 
 ### Contributing
 
