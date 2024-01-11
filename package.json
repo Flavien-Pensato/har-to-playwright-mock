@@ -1,0 +1,10 @@
+{
+  "name": "har-to-playwright-mock",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "har-to-playwright-mock": "./index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
