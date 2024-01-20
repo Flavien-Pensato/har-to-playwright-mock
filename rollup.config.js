@@ -4,7 +4,7 @@ export default {
   input: './src/HarRecordingPage.ts',
   output: {
     dir: 'lib',
-    format: 'cjs'
+    format: 'cjs',
   },
   plugins: [typescript()]
 };
