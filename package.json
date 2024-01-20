@@ -1,7 +1,14 @@
 {
-  "name": "har-to-playwright-mock",
-  "version": "1.0.1",
+  "name": "htp-mock",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Flavien-Pensato/har-to-playwright-mock",
+    "type": "git"
+  },
+  "main": "./lib/HarRecordingPage.js",
   "description": "Script cli with the ability to generate mockApi route for Playwright from har file (http archive)",
+  "author": "Flavien Pensato <flavien.pensato@gmail.com>",
+  "license": "ISC",
   "keywords": [
     "frontend",
     "node",
@@ -11,9 +18,19 @@
     "testing",
     "e2e"
   ],
-  "bin": {
-    "har-to-playwright-mock": "./index.js"
+  "scripts": {
+    "test": "echo \"test\"",
+    "dev": "rollup --watch --config rollup.config.js --configPlugin @rollup/plugin-typescript",
+    "build": "rollup --config rollup.config.js --configPlugin @rollup/plugin-typescript"
   },
-  "author": "Flavien Pensato <flavien.pensato@gmail.com>",
-  "license": "ISC"
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.11.2",
+    "rollup": "^4.9.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1.40.1"
+  }
 }

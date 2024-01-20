@@ -1,0 +1,7 @@
+{
+    "javascript.validate.enable": true,
+    "typescript.validate.enable": true,
+    "javascript.format.enable": true,
+    "typescript.format.enable": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+}
